@@ -1,6 +1,6 @@
 import { render, cleanup } from '@testing-library/react';
 import '@testing-library/jest-dom/extend-expect';
-import About from '../About';
+import About from '..';
 
 afterEach(cleanup);
 
